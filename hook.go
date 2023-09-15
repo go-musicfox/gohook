@@ -28,6 +28,14 @@ import (
 	"sync"
 	"time"
 	"unsafe"
+
+	// Just for import header files when 'go vendor'
+	_ "github.com/robotn/gohook/chan"
+	_ "github.com/robotn/gohook/event"
+	_ "github.com/robotn/gohook/hook"
+	_ "github.com/robotn/gohook/hook/darwin"
+	_ "github.com/robotn/gohook/hook/windows"
+	_ "github.com/robotn/gohook/hook/x11"
 )
 
 const (
